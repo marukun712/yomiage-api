@@ -1,0 +1,10 @@
+models/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+apex/
+LJSpeech-1.1/
+waveglow/
+waveglow_256channels_universal_v5.pt
+tacotron2_statedict.pt
+.python-version
