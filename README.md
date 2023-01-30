@@ -25,7 +25,7 @@ api.pyを編集します。
 ...
 
 #チェックポイントの読み込み
-checkpoint_path = "models/tsukuyomichan/checkpoint_3000"
+checkpoint_path = "" ##チェックポイントのパスに変更 
 model = load_model(hparams)
 model.load_state_dict(torch.load(checkpoint_path)['state_dict'])
 _ = model.cuda().eval()
