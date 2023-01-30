@@ -17,6 +17,11 @@ Visit our [website] for audio samples using our published [Tacotron 2] and
 ## Pre-requisites
 1. NVIDIA GPU + CUDA cuDNN
 
+## 動作確認済み環境
+Ubuntu 20.04.5 LTS
+Python 3.7.1
+CUDA 11.7
+
 ## Setup
 1. Download and extract the [LJ Speech dataset](https://keithito.com/LJ-Speech-Dataset/)
 2. Clone this repo: `git clone https://github.com/NVIDIA/tacotron2.git`
@@ -79,3 +84,4 @@ Wang and Zongheng Yang.
 [ignored]: https://github.com/NVIDIA/tacotron2/blob/master/hparams.py#L22
 [Apex]: https://github.com/nvidia/apex
 [AMP]: https://github.com/NVIDIA/apex/tree/master/apex/amp
+
